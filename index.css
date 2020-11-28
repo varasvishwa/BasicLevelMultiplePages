@@ -1,0 +1,162 @@
+*{
+    list-style-type: none;
+    letter-spacing: 0px; 
+}
+
+
+
+
+
+.head{
+width: 100%;
+height: 80px;
+background-color: #84d1e0;
+border-radius: 20px 20px 0px 0px;
+
+}
+
+.head >header{
+
+
+
+    color: rgb(32, 101, 230);
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: italic;
+    text-indent: 10px;
+    padding:5px 1px;
+    background-color: aliceblue;
+    width: 20%;
+    height:50px;
+    margin:10px 0px;
+    border-radius: 20px 120px 20px 20px;
+}
+.nav-wrapper{
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    z-index:20;
+}
+/**
+.navigation{
+    width:100%;
+    height:70px;
+    background-color: #84d1e0;
+    border-radius:0px 0px;
+    margin:-17px 0px 0px 0px;
+}
+
+.navigation> ul li{
+    display: inline;
+    font-size: larger;
+}
+
+#products{
+    float: left;
+    border: 20px 20px;
+    padding-top:20px ;
+    padding-left: 50px;
+    font-size: larger;
+    height: 50px;
+    width:10%;
+    border-radius: 20px;
+
+
+}
+.navigation ul li:hover{
+
+    text-transform: uppercase;
+    background-color: #aae9f7;
+}
+
+#AboutUs{
+    float: left;
+    padding:20px 40px 20px 40px;
+    font-size: larger;
+    height :30px;
+    width:10%;
+    text-align: center;
+    border-radius: 20px;
+
+
+}
+
+#Contact{
+
+    font-size: small;
+    float: right;
+    padding:20px 30px 20px 10px;
+    height:30px;
+    width:10%;
+    border-radius: 20px;
+    text-align: center;
+
+    
+
+
+}
+**/
+
+.scroll> .container{
+ 
+    width:100%;
+    height:auto;
+    background-color: rgb(29, 191, 202);
+    
+   /** background:-webkit-repeating-linear-gradient( right bottom,rgb(79, 79, 199) ,rgb(43, 43, 216) ,rgb(0, 0, 14));**/
+   /**background:-webkit-repeating-radial-gradient(Top left,rgb(79, 79, 199) ,rgb(43, 43, 216) ,rgb(0, 0, 14));**/
+
+}
+
+.scroll>.container-fluid{
+
+    width:100%;
+    height:auto;
+    background-color: cadetblue;
+    margin:10px;
+}
+        
+
+        .card img
+        {
+            height:150px;
+            width:60%;
+        }
+
+
+    
+        @media only screen and (min-width:320px) and (max-width:768px)
+        {
+
+
+            
+            .card img
+            {
+                width:60%;
+            }
+
+            .card-body .card-title
+            {
+                font-size:20px;
+            }
+
+
+            .card-body .btn
+            {
+                width:100%;
+                font-size:12px;
+            }
+        }
+
+
+.carousel > .carousel-inner> .carousel-item> img{
+    height:500px;
+    padding-bottom: 10px;
+
+}        
+
+/*.scroll>.container-fluid>.col-12>.promo>img{
+    padding-left:40px;
+}*/

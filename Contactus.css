@@ -1,0 +1,23 @@
+.container-fluid{
+
+    width:100%;
+    height:1600px;
+    background-color: cadetblue;
+    margin:10px;
+}
+
+.container{
+ 
+    width:70%;
+    height:auto;
+    background-color: rgb(205, 225, 226);
+    
+   /** background:-webkit-repeating-linear-gradient( right bottom,rgb(79, 79, 199) ,rgb(43, 43, 216) ,rgb(0, 0, 14));**/
+   /**background:-webkit-repeating-radial-gradient(Top left,rgb(79, 79, 199) ,rgb(43, 43, 216) ,rgb(0, 0, 14));**/
+
+}
+
+*{
+    list-style-type: none;
+    letter-spacing: 0px; 
+}
